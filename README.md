@@ -1,8 +1,8 @@
-# Gatsby + Netlify CMS Starter
+# Robbie Hilado - Personal Portfolio and Blog
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
+This repo will be the playground for my Personal Portfolio and Blog that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org).
 
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
+I'll be using this as my main sandbox for learning different front end topics I've been trying to get up to speed on, but mostly for getting into terms with React and Continuous Deployment and Integration.
 
 ## Prerequisites
 
