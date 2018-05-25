@@ -8,9 +8,14 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <section className="section">
+      <section className="section padding-top-0">
         <div className="container">
           <div className="content">
+            <div
+                className="full-width-hero margin-top-0"
+                style={{ backgroundImage: `url(/img/jumbotron.jpg)` }}
+              >
+            </div>
             <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
           </div>
           {posts
