@@ -50,5 +50,62 @@ $primary-invert: $kaldi-red-invert
 
 .padding-top-0
   padding-top: 0 !important
-  
+
+/*-----------------------------*/
+/* ---- Comparison Slider ---- */
+/*-----------------------------*/
+
+.ComparisonSlider
+  position: relative
+  width: 100%
+  height: 100vh
+  min-height: 650px
+  z-index: 1
+  border-bottom: 1px solid #f2f2f2
+
+  img
+    max-width: none
+
+.ComparisonSlider-container
+  position: absolute
+  width: 100%
+  height: 100%
+  overflow: hidden
+
+.ComparisonSlider-container--BaseImage
+  z-index: 100
+
+
+.ComparisonSlider-container--OverlayImage
+  z-index: 200
+  background: #0d1321
+
+.DragHandle
+    position: absolute
+    width: 2px
+    height: 100%
+    top: 0px
+    left: 0px
+    background-color: #f0ebd8
+    cursor: pointer
+    z-index: 300
+
+.DragHandle .DragHandle-icon
+    width: 30px
+    height: 30px
+    background: url('../img/cd-arrows.svg') #3e5c76 no-repeat center center
+    border: 1px solid #3e5c76
+    border-radius: 15px
+    display: block
+    position: absolute
+    top: 50%
+    left: -15px
+    margin-top: -22px
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2)
+
+.OverlayImage-wrapper, .BaseImage-wrapper
+    position: relative
+    height: 100%
+
+
 @import "~bulma"
