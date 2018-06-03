@@ -1,19 +1,19 @@
 import React from 'react'
 
 const ComparisonSliderBanner = () => (
-    <section id="ComparisonSlider" class="ComparisonSlider full-width-hero">
-        <div class="ComparisonSlider-container ComparisonSlider-container--OverlayImage">
-            <div class="OverlayImage-wrapper">
-                <div id="particles-js" class="ComparisonSliderImage ComparisonSliderImage--Overlay"></div>
+    <section id="ComparisonSlider" className="ComparisonSlider full-width-hero">
+        <div className="ComparisonSlider-container ComparisonSlider-container--OverlayImage">
+            <div className="OverlayImage-wrapper">
+                <div id="particles-js" className="ComparisonSliderImage ComparisonSliderImage--Overlay"></div>
         </div>
         </div>
-        <div class="ComparisonSlider-container ComparisonSlider-container--BaseImage">
-            <div class="BaseImage-wrapper">
-                <div class="ComparisonSliderImage ComparisonSliderImage--Base"></div>
+        <div className="ComparisonSlider-container ComparisonSlider-container--BaseImage">
+            <div className="BaseImage-wrapper">
+                <div className="ComparisonSliderImage ComparisonSliderImage--Base"></div>
             </div>
         </div>
-        <div id="DragHandle" class="DragHandle">
-            <span class="DragHandle-icon"></span>
+        <div id="DragHandle" className="DragHandle">
+            <span className="DragHandle-icon"></span>
         </div>
     </section> 
 )
